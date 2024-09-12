@@ -1,39 +1,39 @@
-# Front-end Style Guide
+# Guia de Estilo para o Front-end
 
 ## Layout
 
-The designs were created to the following widths:
+Os designs foram criados nas seguintes larguras:
 
 - Mobile: 375px
 - Desktop: 1440px
 
-> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+> 💡 Esses são apenas os tamanhos dos designs. Certifique-se de que o conteúdo seja responsivo e atenda aos requisitos da WCAG testando em toda a faixa de tamanhos de tela, de 320px até telas grandes.
 
-## Colors
+## Cores
 
-### Primary
+### Primárias
 
-- Dark cyan: hsl(158, 36%, 37%)
-- Cream: hsl(30, 38%, 92%)
+- Ciano escuro: hsl(158, 36%, 37%)
+- Creme: hsl(30, 38%, 92%)
 
-### Neutral
+### Neutras
 
-- Very dark blue: hsl(212, 21%, 14%)
-- Dark grayish blue: hsl(228, 12%, 48%)
-- White: hsl(0, 0%, 100%)
+- Azul muito escuro: hsl(212, 21%, 14%)
+- Azul acinzentado escuro: hsl(228, 12%, 48%)
+- Branco: hsl(0, 0%, 100%)
 
-## Typography
+## Tipografia
 
-### Body Copy
+### Texto
 
-- Font size (paragraph): 14px
+- Tamanho da fonte (parágrafo): 14px
 
-### Font
+### Fontes
 
-- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
-- Weights: 500, 700
+- Família: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Pesos: 500, 700
 
-- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
-- Weights: 700
+- Família: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Pesos: 700
 
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
+> 💎 [Atualize para Pro](https://www.frontendmentor.io/pro?ref=style-guide) para ter acesso aos arquivos de design, ver todos os detalhes e obter uma experiência prática com ferramentas profissionais como o Figma.
