@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	/*primery colors*/
+	--dCyan: hsl(158, 36%, 37%);
+	--cream: hsl(30, 38%, 92%);
+	
+	/*neutral colors*/
+	--vdBlue: hsl(212, 21%, 14%);
+	--dgBlue: hsl(228, 12%, 48%);
+	--white: hsl(0, 0%, 100%);
+}
+
+.mont500 {
+	font-weight: 500;
+}
+.mont700 {
+	font-weight: 700;
+}
+
+.fraun700 {
+	font-family: "Fraunces", sans-serif;
+	font-weight: 700;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	max-width: 1440px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--cream);
+}
+
+p {
+	font-size: 14px;
+	color: var(--dgBlue);
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	border-radius: 10px;
+	width: 36em;
+	overflow: hidden;
+	background-color: var(--white);
+}
+
+.img {
+	background-image: url(../images/image-product-desktop.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 60%;
+	height: auto;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 50%;
+	padding: 30px;
+}
+
+.perfume {
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-size: 14px;
+	color: var(--vdBlue);
+}
+
+.w70 {
+	width: 100%;
+}
+
+h1.fraun700 {
+	font-size: 2em;
+	color: var(--vdBlue);
+}
+
+#price {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 1em;
+}
+
+#price .fraun700 {
+	font-size: 2em;
+	color: var(--dCyan);
+}
+
+#price p {
+	text-decoration: line-through;
+}
+
+.button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 0.7em;
+	white-space: nowrap;
+	cursor: pointer;
+	border: none;
+	border-radius: 7px;
+	padding: 1.1em 4.8em;
+	color: var(--white);
+	background-color: var(--dCyan);
+}
+
+.button:active {
+	background-color: #1D3B2D;
+	cursor: pointer;
+}
+
+footer {
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	padding-bottom: 15px;
+	text-align: center;
+	position: fixed;
+}
+
+@media (max-width: 590px) {
+	.container {
+		flex-direction: column;
+		width: 20em;
+		height: 35em;
+	}
+
+	.img {
+		background-image: url(../images/image-product-mobile.jpg);
+		height: 55%;
+		width: auto;
+	}
+
+	.content {
+		width: 100%;
+		padding: 15px;
+		gap: 10px;
+	}
+
+	.button {
+		padding: 1.1em 6.8em;
+	}
+
+	.w70 {
+		width: 92%;
+	}
+
+	footer {
+		display: none;
+	}
+}
